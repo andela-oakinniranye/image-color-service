@@ -1,0 +1,17 @@
+{
+  "name": "image-color-service",
+  "version": "1.0.0",
+  "description": "A module for extracting the most dominant color from an image",
+  "main": "index.js",
+  "repository": "github.com/andela-oakinniranye/image-color-service",
+  "author": "Oreoluwa<oreoluwa@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "jimp": "^0.2.28",
+    "pixel-getter": "^0.0.5"
+  }
+}
