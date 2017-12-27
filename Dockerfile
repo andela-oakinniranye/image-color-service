@@ -17,4 +17,4 @@ COPY app /var/app
 
 WORKDIR /var/app
 
-CMD bash
+CMD yarn start
